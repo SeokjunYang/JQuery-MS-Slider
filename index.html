@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8"/>
+       <link href="css/default.css" type="text/css" rel="stylesheet">
+       <link href="css/ms-slider.css" type="text/css" rel="stylesheet">
+       <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+       <script src="js/pauseresume.js"></script>
+       <script src="js/ms-slider.js" type="text/javascript"></script>
+       <script>
+            $(document).ready(function () {
+                var slider = new ms_slider('.ms-slider-content');
+                slider.init();
+                slider.imageClone();
+                slider.loopAnimate(slider);
+            });
+       </script>
+       <title>Slider</title>
+   </head>
+   <body>
+       <div id="example">
+           <div class="ms-slider">
+               <ul class="ms-slider-content">
+                   <li>
+                       <img src="img/2.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+                   <li>
+                       <img src="img/1.jpg" alt="" class="ms-slider-img">
+                   </li>
+               </ul>
+           </div>
+       </div>
+   </body>
+</html>
