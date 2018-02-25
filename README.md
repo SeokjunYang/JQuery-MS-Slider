@@ -21,4 +21,8 @@ Add the following code afterwards:
     slider.loopAnimate(slider);
 ```
 
+# Result
+
+![main](https://user-images.githubusercontent.com/36805277/36641061-608a4518-1a6d-11e8-9501-c27b40d28a91.png)
+
 Thank you for watching!
